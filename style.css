@@ -1,0 +1,100 @@
+/*
+  Author: Dayon McCray
+  Date: April 7th, 2025
+  Description: Styling for personal tech portfolio website.
+  Tools Used: CSS, Visual Studio Code, GitHub Pages
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* DareDevil Style Webpage Color Setup!  */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #ff0606; 
+  color: #fff; 
+  padding: 20px;
+}
+
+/* This is for the Navigation bar */
+header {
+  background-color: #000; /* If I made this red it would've been too much. Got to go with black */
+  color: #fff; /* Ofc White text */
+  padding: 20px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: #fff; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+  color: #ff0606; 
+}
+
+/* Now were at the sections part! */
+.section {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: rgb(172, 17, 17); 
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  color: #ffffff; 
+  margin-bottom: 10px;
+}
+
+ul li {
+  margin: 8px 0;
+}
+
+/* Last but not least.... the footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #000; /* Black footer */
+  color: #fff; /* White text */
+}
+
+/* Another method to unite the styling for work and project titles */
+.work-title, .project-title {
+  font-size: 1.2rem; 
+  font-weight: bold; 
+  margin-bottom: 8px; 
+  color: #fff; 
+}
+
+/* Set consistent heading size , for some reason I keep running into this problem!!*/
+h1, h2 {
+  font-size: 1.2rem; 
+}
+
